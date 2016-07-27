@@ -1,0 +1,373 @@
+/*****************************************************************************************************
+    This is the grid system for nila. 
+        type : 3ed perty 
+        version : 1.0.0.0
+    "homepage": "http://daneden.github.io/Toast"
+    "ourVersion -- updated ":https://github.com/insetCoad/Toast/blob/myConf/scss/_grid.scss
+******************************************************************************************************/
+.row {
+  list-style: none;
+  margin-left: -10px; }
+
+.cl--2-of-2, .cl--3-of-3, .cl--4-of-4, .cl--5-of-5, .cl--6-of-6, .cl--8-of-8, .cl--12-of-12 {
+  width: 100%; }
+
+.cl--1-of-2, .cl--2-of-4, .cl--3-of-6, .cl--4-of-8, .cl--6-of-12 {
+  width: 50%; }
+
+.cl--1-of-3, .cl--2-of-6, .cl--4-of-12 {
+  width: 33.33333%; }
+
+.cl--2-of-3, .cl--4-of-6, .cl--8-of-12 {
+  width: 66.66667%; }
+
+.cl--1-of-4, .cl--2-of-8, .cl--3-of-12 {
+  width: 25%; }
+
+.cl--3-of-4, .cl--6-of-8, .cl--9-of-12 {
+  width: 75%; }
+
+.cl--push-2-of-2, .cl--push-3-of-3, .cl--push-4-of-4, .cl--push-5-of-5, .cl--push-6-of-6, .cl--push-8-of-8, .cl--push-12-of-12 {
+  margin-left: 100%; }
+
+.cl--push-1-of-2, .cl--push-2-of-4, .cl--push-3-of-6, .cl--push-4-of-8, .cl--push-6-of-12 {
+  margin-left: 50%; }
+
+.cl--push-1-of-3, .cl--push-2-of-6, .cl--push-4-of-12 {
+  margin-left: 33.33333%; }
+
+.cl--push-2-of-3, .cl--push-4-of-6, .cl--push-8-of-12 {
+  margin-left: 66.66667%; }
+
+.cl--push-1-of-4, .cl--push-2-of-8, .cl--push-3-of-12 {
+  margin-left: 25%; }
+
+.cl--push-3-of-4, .cl--push-6-of-8, .cl--push-9-of-12 {
+  margin-left: 75%; }
+
+.cl--pull-2-of-2, .cl--pull-3-of-3, .cl--pull-4-of-4, .cl--pull-5-of-5, .cl--pull-6-of-6, .cl--pull-8-of-8, .cl--pull-12-of-12 {
+  margin-left: -100%; }
+
+.cl--pull-1-of-2, .cl--pull-2-of-4, .cl--pull-3-of-6, .cl--pull-4-of-8, .cl--pull-6-of-12 {
+  margin-left: -50%; }
+
+.cl--pull-1-of-3, .cl--pull-2-of-6, .cl--pull-4-of-12 {
+  margin-left: -33.33333%; }
+
+.cl--pull-2-of-3, .cl--pull-4-of-6, .cl--pull-8-of-12 {
+  margin-left: -66.66667%; }
+
+.cl--pull-1-of-4, .cl--pull-2-of-8, .cl--pull-3-of-12 {
+  margin-left: -25%; }
+
+.cl--pull-3-of-4, .cl--pull-6-of-8, .cl--pull-9-of-12 {
+  margin-left: -75%; }
+
+.cl--1-of-5 {
+  width: 20%; }
+
+.cl--push-1-of-5 {
+  margin-left: 20%; }
+
+.cl--pull-1-of-5 {
+  margin-left: -20%; }
+
+.cl--2-of-5 {
+  width: 40%; }
+
+.cl--push-2-of-5 {
+  margin-left: 40%; }
+
+.cl--pull-2-of-5 {
+  margin-left: -40%; }
+
+.cl--3-of-5 {
+  width: 60%; }
+
+.cl--push-3-of-5 {
+  margin-left: 60%; }
+
+.cl--pull-3-of-5 {
+  margin-left: -60%; }
+
+.cl--4-of-5 {
+  width: 80%; }
+
+.cl--push-4-of-5 {
+  margin-left: 80%; }
+
+.cl--pull-4-of-5 {
+  margin-left: -80%; }
+
+.cl--1-of-6 {
+  width: 16.66667%; }
+
+.cl--push-1-of-6 {
+  margin-left: 16.66667%; }
+
+.cl--pull-1-of-6 {
+  margin-left: -16.66667%; }
+
+.cl--5-of-6 {
+  width: 83.33333%; }
+
+.cl--push-5-of-6 {
+  margin-left: 83.33333%; }
+
+.cl--pull-5-of-6 {
+  margin-left: -83.33333%; }
+
+.cl--1-of-8 {
+  width: 12.5%; }
+
+.cl--push-1-of-8 {
+  margin-left: 12.5%; }
+
+.cl--pull-1-of-8 {
+  margin-left: -12.5%; }
+
+.cl--3-of-8 {
+  width: 37.5%; }
+
+.cl--push-3-of-8 {
+  margin-left: 37.5%; }
+
+.cl--pull-3-of-8 {
+  margin-left: -37.5%; }
+
+.cl--5-of-8 {
+  width: 62.5%; }
+
+.cl--push-5-of-8 {
+  margin-left: 62.5%; }
+
+.cl--pull-5-of-8 {
+  margin-left: -62.5%; }
+
+.cl--7-of-8 {
+  width: 87.5%; }
+
+.cl--push-7-of-8 {
+  margin-left: 87.5%; }
+
+.cl--pull-7-of-8 {
+  margin-left: -87.5%; }
+
+.cl--1-of-12 {
+  width: 8.33333%; }
+
+.cl--push-1-of-12 {
+  margin-left: 8.33333%; }
+
+.cl--pull-1-of-12 {
+  margin-left: -8.33333%; }
+
+.cl--2-of-12 {
+  width: 16.66667%; }
+
+.cl--push-2-of-12 {
+  margin-left: 16.66667%; }
+
+.cl--pull-2-of-12 {
+  margin-left: -16.66667%; }
+
+.cl--5-of-12 {
+  width: 41.66667%; }
+
+.cl--push-5-of-12 {
+  margin-left: 41.66667%; }
+
+.cl--pull-5-of-12 {
+  margin-left: -41.66667%; }
+
+.cl--7-of-12 {
+  width: 58.33333%; }
+
+.cl--push-7-of-12 {
+  margin-left: 58.33333%; }
+
+.cl--pull-7-of-12 {
+  margin-left: -58.33333%; }
+
+.cl--10-of-12 {
+  width: 83.33333%; }
+
+.cl--push-10-of-12 {
+  margin-left: 83.33333%; }
+
+.cl--pull-10-of-12 {
+  margin-left: -83.33333%; }
+
+.cl--11-of-12 {
+  width: 91.66667%; }
+
+.cl--push-11-of-12 {
+  margin-left: 91.66667%; }
+
+.cl--pull-11-of-12 {
+  margin-left: -91.66667%; }
+
+.cl {
+  box-sizing: border-box;
+  display: inline-block;
+  margin-right: -.25em;
+  min-height: 1px;
+  padding-left: 10px;
+  vertical-align: top; }
+  @media (max-width: 700px) {
+    .cl {
+      display: block;
+      margin-left: 0;
+      margin-right: 0;
+      width: auto; } }
+  @media (max-width: 700px) and (min-width: 480px) {
+    .cl[class*="cl--m-"] {
+      display: inline-block;
+      margin-right: -.24em; }
+    .cl.cl--m-1-of-2, .cl.cl--m-2-of-4 {
+      width: 50%; }
+    .cl.cl--m-1-of-3 {
+      width: 33.33333%; }
+    .cl.cl--m-2-of-3 {
+      width: 66.66667%; }
+    .cl.cl--m-1-of-4 {
+      width: 25%; }
+    .cl.cl--m-3-of-4 {
+      width: 75%; } }
+  @media (max-width: 480px) {
+    .cl[class*="cl--s-"] {
+      display: inline-block;
+      margin-right: -.24em; }
+    .cl.cl--s-1-of-2, .cl.cl--s-2-of-4 {
+      width: 50%; }
+    .cl.cl--s-1-of-3 {
+      width: 33.33333%; }
+    .cl.cl--s-2-of-3 {
+      width: 66.66667%; }
+    .cl.cl--s-1-of-4 {
+      width: 25%; }
+    .cl.cl--s-3-of-4 {
+      width: 75%; } }
+
+.cl--centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.cl--d-first {
+  float: left; }
+
+.cl--d-last {
+  float: right; }
+
+.row--no-gutter {
+  margin-left: 0;
+  width: 100%; }
+  .row--no-gutter .cl {
+    padding-left: 0; }
+  .row--no-gutter .cl--span-all {
+    margin-left: 0;
+    width: 100%; }
+
+.cl--ab {
+  vertical-align: bottom; }
+
+.cl--am {
+  vertical-align: middle; }
+
+* {
+  padding: 0px;
+  margin: 0px; }
+
+.bord {
+  width: 100%; }
+
+ul.inline > li {
+  list-style: none;
+  display: inline;
+  margin: 1px; }
+
+.content-small {
+  padding: 4px; }
+
+/*| btn config|*/
+.btn, .btn-base, .btn-rightDash {
+  padding: 2px 10px;
+  cursor: pointer; }
+
+.btn-base {
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 4px;
+  box-shadow: 0px 1px 5px -1px rgba(0, 0, 0, 0.8); }
+  .btn-base:hover {
+    transition: 0.2s ease;
+    padding: 2px 15px; }
+
+.btn-rightDash {
+  border-left: 1px dashed rgba(255, 255, 255, 0.6); }
+  .btn-rightDash:hover {
+    transition: 0.1s;
+    background-color: white; }
+
+.right {
+  float: right; }
+
+/*| a test model |*/
+.test, .test-5x, .test-4x, .test-3x, .test-2x, .test-1x, .test-xx, .test-5d, .test-4d, .test-3d, .test-2d, .test-1d, .test-xd {
+  padding: 2px;
+  font-weight: bold; }
+  .test:hover, .test-5x:hover, .test-4x:hover, .test-3x:hover, .test-2x:hover, .test-1x:hover, .test-xx:hover, .test-5d:hover, .test-4d:hover, .test-3d:hover, .test-2d:hover, .test-1d:hover, .test-xd:hover {
+    border: 2px dashed beige; }
+
+.test-5x {
+  background-color: #FFFFFF; }
+
+.test-4x {
+  background-color: #F8A6A8; }
+
+.test-3x {
+  background-color: #F4797C; }
+
+.test-2x {
+  background-color: #F14C50; }
+
+.test-1x {
+  background-color: #ED2124; }
+
+.test-xx {
+  background-color: red;
+  border: 2px solid beige; }
+
+.test-5d {
+  background-color: #1A237E; }
+
+.test-4d {
+  background-color: #1565C0; }
+
+.test-3d {
+  background-color: #0277BD; }
+
+.test-2d {
+  background-color: #00838F; }
+
+.test-1d {
+  background-color: #00695C; }
+
+.test-xd {
+  background-color: red;
+  border: 2px solid #1B5E20; }
+
+/*| only for this current template --> no need for new project |*/
+.ins_notification_area {
+  background-color: #1565C0;
+  min-height: 200px; }
+  .ins_notification_area .navber {
+    background-color: rgba(179, 229, 252, 0.6);
+    box-shadow: 0px 0px 15px -2px black; }
+
+/*|temp - code - |*/
+.temp-x {
+  width: 60%;
+  margin: 0 auto; }
+
+/*# sourceMappingURL=main.css.map */

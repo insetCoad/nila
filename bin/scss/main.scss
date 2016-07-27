@@ -1,0 +1,16 @@
+@import "grid";
+@import "config";
+@import "global";
+    @import "btn";
+    @import "aline";
+/*| a test model |*/
+@import "test";
+/*| only for this current template --> no need for new project |*/
+    @import "custom"; 
+
+/*|temp - code - |*/
+
+.temp-x{
+    width: 60%;
+    margin: 0 auto;
+}

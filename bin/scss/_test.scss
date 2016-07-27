@@ -1,0 +1,20 @@
+.test{
+    padding: 2px;
+    font-weight: bold;
+    &:hover{
+        border: 2px dashed beige;
+    }
+}
+.test-5x{@extend .test; background-color: #FFFFFF }
+.test-4x{@extend .test; background-color: #F8A6A8 }
+.test-3x{@extend .test; background-color: #F4797C }
+.test-2x{@extend .test; background-color: #F14C50 }
+.test-1x{@extend .test; background-color: #ED2124 }
+.test-xx{@extend .test; background-color: red; border: 2px solid beige}
+
+.test-5d{@extend .test; background-color: #1A237E }
+.test-4d{@extend .test; background-color: #1565C0 }
+.test-3d{@extend .test; background-color: #0277BD }
+.test-2d{@extend .test; background-color: #00838F }
+.test-1d{@extend .test; background-color: #00695C }
+.test-xd{@extend .test; background-color: red; border: 2px solid #1B5E20}
